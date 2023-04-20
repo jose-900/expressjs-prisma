@@ -5,7 +5,7 @@
   "author": "Jake Runzer",
   "license": "MIT",
   "scripts": {
-    "dev": "nodemon src/server.ts",
+    "dev": "nodemon src/index.ts",
     "build": "yarn migrate:deploy && tsc",
     "start": "node dist/index.js"
   },
